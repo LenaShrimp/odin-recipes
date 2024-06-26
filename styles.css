@@ -65,3 +65,11 @@ h1 {
   display: inline-block;
   margin: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+  .audio,
+  .rat {
+      position: static; /* Remove absolute positioning on smaller screens */
+      margin-top: 10px; /* Adjust margin to separate from content */
+  }
+}
